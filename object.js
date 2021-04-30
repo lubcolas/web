@@ -18,3 +18,7 @@ var cars = [
 // JS The join() method
   var fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo").innerHTML = fruits.join(" * ");
+
+// The pop() method
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();              // Removes the last element ("Mango") from fruits
